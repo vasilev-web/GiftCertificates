@@ -1,0 +1,17 @@
+.cert-input {
+    .input-message {
+        font-weight: 500;
+        font-size: 0.75rem;
+        line-height: 120%;
+        letter-spacing: -0.02em;    
+        color: #FF491F;
+        margin-top: 4px;
+    }
+
+    &--empty {
+        .input-field {
+            color: #AEBFCF;
+        }
+    }
+}
+

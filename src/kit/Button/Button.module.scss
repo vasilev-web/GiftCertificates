@@ -1,0 +1,19 @@
+.btn {
+    transition: all .3s;
+    vertical-align: center;
+    border: none;
+    &:focus,
+    &:active,
+    &:hover {
+        border: none;
+        outline: none;
+    }
+}
+
+// Disabled
+.btn {
+    &:disabled {
+        color: gray;
+        opacity: 0.5;
+    }
+}
